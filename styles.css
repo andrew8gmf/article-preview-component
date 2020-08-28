@@ -93,16 +93,18 @@ h1, h2, h3 {
 
 .share {
     width: 10%;
-    align-items: center;
     text-align: center;
-    justify-items: center;
-    justify-content: center;
+    border-radius: 50%;
 }
 
 .share img {
     margin-top: 30%;
     width: 40%;
     height: auto;
+}
+
+.share:hover {
+    background-color: hsl(212, 23%, 69%);
 }
 
 .attribution { 
